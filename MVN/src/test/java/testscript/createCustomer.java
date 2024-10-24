@@ -15,5 +15,6 @@ public class createCustomer {
 		@Nullable
 		String title = driver.getTitle();
 		System.out.println(title);
+		driver.quit();
 	}
 }
